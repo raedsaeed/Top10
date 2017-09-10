@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.raed.top10.MainActivity">
+    <item
+        android:id="@+id/menu_free_apps"
+        android:title="@string/free_apps"
+        />
+    <item
+        android:id="@+id/menu_paid_apps"
+        android:title="@string/paid_apps"
+        />
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menuGrup">
+        <item
+            android:id="@+id/menu_top_25"
+            android:title="@string/top25"
+            >
+        </item>
+        <item android:title="@string/top50"
+              android:id="@+id/menu_top_50"
+            />
+    </group>
+    <item android:title="@string/refresh"
+          android:id="@+id/menu_refresh"
+        />
+</menu>
